@@ -1,4 +1,4 @@
-FROM php:7.1-fpm-jessie
+FROM php:7.2-fpm-stretch
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libjpeg-dev \
